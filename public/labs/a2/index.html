@@ -5,6 +5,7 @@
     <title>Title</title>
 </head>
 <body>
+    <a name="table-of-content"></a>
     <h1>HTML Examples</h1>
     <h2>Heading Tags</h2>
     Text documents are often broken up into several sections and subsections. Each section is
@@ -208,5 +209,61 @@ and h6 is the smallest heading.
     <a href="https://www.lipsum.com">click here</a>
     to get dummy text<br/>
     Checkout my <a href="other-page.html">other page</a>
+    <h2>Embedding other websites</h2>
+    <a name="website"></a>
+    <a href="#top">Top</a><br/>
+    <iframe width="600"
+            height="400"
+            src="https://en.wikipedia.org/wiki/SpaceX">
+    </iframe>
+
+    <h2>Embedding YouTube</h2>
+    <a name="video"></a>
+    <a href="#top">Top</a><br/>
+    <iframe width="560"
+            height="315"
+            src="https://www.youtube.com/embed/7CZTLogln34"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+    </iframe>
+    <h2>Embedding Google slides</h2>
+    <a name="slides"></a>
+    <a href="#top">Top</a><br/>
+    <iframe
+            src="https://docs.google.com/presentation/d/e/2PACX-1vQoIYM2gXzRLKt4q5D2-ZahG7zvVcAipkRvj5k9GVLiGDs8NPlLpO3Q08cPUKQbqhL6g8aZp1ZJSwrw/embed?start=false&loop=false&delayms=3000"
+            frameborder="0"
+            width="680"
+            height="418"
+            allowfullscreen="true"
+            mozallowfullscreen="true"
+            webkitallowfullscreen="true">
+    </iframe>
+    <h2>Drawing rectangles</h2>
+    <svg width="300" height="100">
+        <rect width="300" height="100"
+              style="fill:rgb(0,0,255); stroke-width:10; stroke:rgb(255,0,0)" />
+    </svg>
+    <h2>Drawing circles</h2>
+    <svg width="200" height="100">
+        <circle cx="70" cy="50" r="40"
+                stroke="green" stroke-width="4"
+                fill="yellow" />
+    </svg>
+    <h2>Drawing polygons</h2>
+    <svg width="300" height="200">
+        <polygon points="100,10 40,198 190,78 10,78 160,198"
+                 style="fill:lime; stroke:purple; stroke-width:5; fill-rule:evenodd;"/>
+    </svg>
+    <br/>
+    <h1>Table of content</h1>
+    <ol>
+        <li><a href="#website">embedding-website</a> </li>
+        <li><a href="#video">embedding-youtube</a> </li>
+        <li><a href = "#slides">embedding slides</a></li>
+    </ol>
+    <a href="#table-of-content">Up</a>
 </body>
 </html>
