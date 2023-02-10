@@ -96,13 +96,18 @@
     font: 15px Arial,sans-serif;
     font-weight: bold;
 }
-.wd-suggest-post-mid .wd-suggest-post-mid-a wd-suggest-post-mid-a-picture-a{
-    padding-right:16px;
-    padding-top:16px
+.wd-suggest-post-mid-a img{
+    border-radius: 15px;
+      position:relative;
+      left:1100px;
+      padding:5px;
 }
-
-
-
+.wd-suggest-post-mid-b .wd-suggest-post-mid-b-picture .b-img{
+    border-radius: 15px;
+    position:relative;
+    left:1095px;
+    padding:5px;
+}
 .wd-suggest-post-mid .wd-suggest-post-mid-b-text-head{
     display: flex;
 }
