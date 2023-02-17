@@ -3,11 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link href="../../vendors1/fontawesome/css/all.css" rel="stylesheet"/>
     <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="../../tuiter/style.css" rel = "stylesheet"/>
+    <link href="../../vendors1/fontawesome/css/all.css" rel="stylesheet"/>
     <link href = "index.css" rel="stylesheet"/>
 </head>
+<body class = "container">
+<div class="row">
+    <div class="d-none d-sm-block mt-3 me-0.1 col-xxl-2 col-xl-2 col-lg-1 col-md-2 col-sm-2"> <!--left bar-->
+    <ul class="list-group">
+        <li class="list-group-item"><i class="fab fa-twitter"></i></li>
+        <li class=" list-group-item"><i class=" me-0.1 fa fa-home"></i><span class=" d-none d-xl-block">Home</span></li>
+        <li class="list-group-item active"><i class="me-2 fab fa-hashtag"></i><span class="d-none d-xl-block" >Explore</span></li>
+        <li class="list-group-item"><i class="me-2 fa fa-bell"></i><span class=" d-none d-xl-block">Notification</span></li>
+        <li class="list-group-item"><i class="me-2 fa fa-envelope"></i><span class=" d-none d-xl-block">Messages</span></li>
+        <li class="list-group-item"><i class="me-2 fa fa-bookmark"></i><span class=" d-none d-xl-block">Bookmarks</span></li>
+        <li class="list-group-item"><i class="me-2 fa fa-list"></i><span class=" d-none d-xl-block">Lists</span></li>
+        <li class="list-group-item"><i class="me-2 fa fa-user"></i><span class=" d-none d-xl-block">Profile</span></li>
+        <li class="list-group-item"><i class="me-2 fa fa-ellipsis"></i><span class=" d-none d-xl-block">More</span></li>
+    </ul>
+        <button class="mt-2 btn-primary" style="width:100%; border-radius:20px">Tweet</button>
+    </div>
 
+    <div class="mt-3 ms-0.1 me-0.1 col-xxl-5 col-xl-5 col-lg-6 col-md-9 col-sm-9 col-xs-9"><!--middle bar-->
+        <div class="wd-search-bar">
+        <i class="fa fa-search wd-search-icon-position"></i><input type="text" placeholder="      Search Twitter" style="border-radius:20px" class="form-control">
+            <a href="explore-settings.html"> <i class=" fa fa-gear fa-2x" style="color: blue; margin-left:15px; margin-top: 2px"></i></a>
+        </div>
+        <div style="padding-left:5px; padding-right:5px"><!-- middle-bar-nav !-->
+            <ul class="nav nav-tabs mt-2">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">For you</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-none d-md-block" href="#">Entertainment</a>
+                </li>
+            </ul>
+            <img src="elon-musk-spacex-starship-designboom-818.jpg" class="wd-mid-bar-img">
+        </div>
+    </div>
+    <div class="mt-3 ms-0.1 me-0.1 col-xxl-4 col-xl-4 col-lg-4 d-none d-lg-block"> <!--right bar-->
+        <ul class="list-group">
+            <li class="wd-follow-bar list-group-item">Who to follow <button class="wd-right-bar-button mt-2 btn-primary">Follow</button></li>
+            <li class="list-group-item">Who to follow</li>
+            <li class="list-group-item">Who to follow</li>
+            <li class="list-group-item">Who to follow</li>
+        </ul>
+    </div>
+
+</div>
 </body>
 </html>

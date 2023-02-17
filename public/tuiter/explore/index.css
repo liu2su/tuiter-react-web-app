@@ -1,2 +1,20 @@
-
+.wd-search-bar{
+    display: flex;
+}
+.wd-search-icon-position{
+    position: relative;
+    left: 30px;
+    top:10px;
+}
+.wd-mid-bar-img{
+    margin-top:10px;
+    width: 100%;
+}
+.wd-follow-bar{
+    display:flex;
+}
+.wd-right-bar-button{
+    width:20%
+    border-radius:20px;
+}
 
