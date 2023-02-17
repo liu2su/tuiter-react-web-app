@@ -17,4 +17,11 @@
     width:20%
     border-radius:20px;
 }
+.middle-bar-heading{
+    font-weight: bold;
+    position: absolute;
+    top:450px;
+    left:350px;
+    color:white;
+}
 
