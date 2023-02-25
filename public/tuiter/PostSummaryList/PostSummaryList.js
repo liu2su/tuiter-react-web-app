@@ -17,7 +17,7 @@ function printpost1(Item){
                       </p>
                 </div>
                 <div class="col-2">
-                <img src="${Item.image}" style="width:180%; border-radius:10px;">
+                <img src="${Item.image}" style="width:150%; border-radius:10px;">
                 </div>
             </div>
         </li>
@@ -27,7 +27,6 @@ function printpost1(Item){
 const PostSummaryList = () => {
     return(`
         <ul class= "list-group">
-            <li class="list-group-item">Test</li>
             ${Item.map(printpost1).join('')}
         </ul>
 

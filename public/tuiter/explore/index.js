@@ -10,6 +10,7 @@ $('#wd-explore').append(`
     ${NavigationSidebar()}
 </div>
 <div class="col-10 col-lg-7 col-xl-6 bg-gray">
+    <img src="elon-musk-spacex-starship-designboom-818.jpg" class="wd-mid-bar-img">
     ${PostSummaryList()}
 </div>
 <div class="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4 bg-gray">
