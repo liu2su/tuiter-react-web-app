@@ -1,0 +1,18 @@
+.fsd-bg-yellow {
+background-color: lightyellow;
+}
+.fsd-bg-blue {
+background-color: lightblue;
+}
+.fsd-bg-red {
+background-color: lightcoral;
+}
+.fsd-bg-green {
+background-color: lightgreen;
+}
+.fsd-fg-black {
+color: black;
+}
+.fsd-padding-10px {
+padding: 10px
+}

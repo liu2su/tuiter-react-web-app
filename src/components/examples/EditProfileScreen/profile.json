@@ -1,0 +1,14 @@
+{
+  "username": "SpaceX",
+  "password": "lv426",
+  "email": "spacex@bocachica.com",
+  "firstName": "Alice",
+  "lastName": "Wonderland",
+  "bio": "An American aerospace manufacturer, a provider of space transportation services, and a communications corporation headquartered in Hawthorne, California",
+  "dob": "2002-03-14",
+  "topTuits": "WEEKLY",
+  "yourTuits": {
+    "NEW": true,
+    "DIRECT": true
+  }
+}
