@@ -1,20 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
-import HelloWorld from './components/helloworld';
-import Examples from "./components/examples";
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {BrowserRouter} from "react-router-dom";
+import {Link} from "react-router-dom";
+import {Route,Routes} from "react-router";
+import Labs from "./labs";
+import HelloWorld from "./labs/a6/hello-world"
+import Tuiter from "./tuiter";
 
 function App() {
-    return (
+return (
     <BrowserRouter>
-        <div className="container">
+        <div Classname = "container" >
+            <h1> Assignment6 </h1>
+            <Link to = "/labs"> Lab </Link>|
+            <Link to = "/Tuiter"> Tuiter </Link>
             <Routes>
-                <Route path = "/examples" element = {<Examples/>}/>
-                <Route path = "/hello" element = {<HelloWorld/>}/>
+                <Route path = "/labs" element = {<Labs/>} />
+                <Route path = "/hello" element = {<HelloWorld/>} />
+                <Route path = "/tuiter" element = {<Tuiter/>} />
             </Routes>
         </div>
     </BrowserRouter>
-    );
+);
 }
 
 export default App;
