@@ -6,15 +6,14 @@ import {Route,Routes} from "react-router";
 import Labs from "./labs";
 import HelloWorld from "./labs/a6/hello-world"
 import Tuiter from "./tuiter";
+import Start from "./tuiter/assignment_start"
 
 function App() {
 return (
     <BrowserRouter>
         <div Classname = "container" >
-            <h1> Assignment6 </h1>
-            <Link to = "/labs"> Lab </Link>|
-            <Link to = "/Tuiter"> Tuiter </Link>
             <Routes>
+                <Route index element = {<Start/>} />
                 <Route path = "/labs" element = {<Labs/>} />
                 <Route path = "/hello" element = {<HelloWorld/>} />
                 <Route path = "/tuiter" element = {<Tuiter/>} />
