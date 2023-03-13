@@ -7,13 +7,14 @@ import Labs from "./labs";
 import HelloWorld from "./labs/a6/hello-world"
 import Tuiter from "./tuiter";
 import Start from "./tuiter/assignment_start"
-
+import Home from "./tuiter/home"
 function App() {
 return (
     <BrowserRouter>
         <div Classname = "container" >
             <Routes>
                 <Route index element = {<Start/>} />
+                <Route path = "/challenge" element = {<Home/>}/>
                 <Route path = "/labs" element = {<Labs/>} />
                 <Route path = "/hello" element = {<HelloWorld/>} />
                 <Route path = "/tuiter" element = {<Tuiter/>} />

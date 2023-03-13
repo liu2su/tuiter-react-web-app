@@ -1,0 +1,10 @@
+[
+  {
+    "avatar": "user-1.jpg", "username": "bot1","handle" : "@bot1","timestamp": "1h","text": "This is the first post","img" : "post1.png",
+    "comment": 200,"forward": 300,"like": 1000
+  },
+  {
+    "avatar": "user-2.jpg", "username": "bot2","handle" : "@bot2","timestamp": "2h","text": "This is the second post","img" : "post2.png",
+    "comment": 100,"forward": 100,"like": 500
+  }
+]
